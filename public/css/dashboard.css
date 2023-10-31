@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.header {
+    width: 100%;
+    height: 20vh;
+    background-color: #5bbef0;
+    align-items: center;
+    display: flex;
+  }
+
+  .colorborde {
+    width: 100%;
+    height: 0.7vh;
+    background-color: black;
+  }
+.logo{
+    width: 30%;
+    height: 6em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    width: 50%;
+    height: 6em;
+    word-spacing: 100px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 20em;
+}

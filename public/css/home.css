@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  height: 20vh;
+  background-color: #5bbef0;
+  align-items: center;
+  display: flex;
+}
+
+.logo {
+  width: 22%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logoesp {
+  width: 22%;
+  height: 22%;
+}
+.menu {
+  width: 70%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+  justify-content: space-around;
+  font-size: 150%;
+}
+
+.container {
+  height: 75vh;
+  background-repeat: repeat-x;
+  padding: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.content{
+    background-color: #5bbef0;
+    width: 20%;
+    height: 60vh;
+    border-radius: 10%;
+    text-align: center;
+    align-content: center;
+    border: black solid 4px;
+    
+}
+
+.contenido{
+    margin-top: 15%;
+}
+
+.input{
+    border-radius: 5px;
+    height: 2vh;
+    text-align: center;
+}
+
+.submit{
+    width: 10vh;
+    border-radius: 2vh;
+}
+
+.colorborde{
+    width: 100%;
+    height: 0.7vh;
+    background-color: black;
+}
+
+
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 79vh;
+  background-color: #f2f2f2;
+}
+
+.welcome-section h1 {
+  font-size: 3em;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #333;
+}
+
+.welcome-section p {
+  font-size: 1.5em;
+  text-align: center;
+  color: #555;
+}

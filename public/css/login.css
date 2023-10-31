@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  height: 20vh;
+  background-color: #5bbef0;
+  align-items: center;
+  display: flex;
+}
+
+.logo {
+  width: 22%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu {
+  width: 70%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+  justify-content: space-around;
+  font-size: 150%;
+}
+
+.container {
+  height: 75vh;
+
+  background-repeat: repeat-x;
+  padding: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  background-color: #5bbef0;
+  width: 20%;
+  height: 50vh;
+  border-radius: 10%;
+  text-align: center;
+  align-content: center;
+  border: black solid 4px;
+}
+
+.contenido {
+  margin-top: 15%;
+}
+
+.submit {
+  width: 10vh;
+  border-radius: 2vh;
+}
+
+.colorborde {
+  width: 100%;
+  height: 0.7vh;
+  background-color: black;
+}
+
+label {
+  font-size: 120%;
+}
+
+input {
+  border-radius: 5px;
+  height: 2vh;
+  text-align: center;
+  border-radius: 5px;
+
+  text-align: center;
+}
+
+.iniciarsesion {
+  height: 4vh;
+  width: 40%;
+}
+
+.register{
+  font-size: 130%;
+}
+
+.rol1 {
+  border-radius: 5px;
+  height: 4vh;
+  text-align: center;
+}
